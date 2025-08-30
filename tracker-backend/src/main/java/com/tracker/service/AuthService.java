@@ -98,7 +98,7 @@ public class AuthService {
                 user.getFullName()
             );
             
-            return new AuthResponse(token, user.getId(), user.getFullName(), user.getCompanyEmail());
+            return new AuthResponse(token, user.getId(), user.getFullName(), user.getEmpId(), user.getCompanyEmail());
             
         } catch (Exception e) {
             return new AuthResponse("Login failed: " + e.getMessage());
