@@ -1,0 +1,13 @@
+/app/tracker-backend/src/main/java/com/tracker/dto/AuthResponse.java
+/app/tracker-backend/src/main/java/com/tracker/service/AuthService.java
+/app/tracker-backend/src/main/java/com/tracker/entity/User.java
+/app/tracker-backend/src/main/java/com/tracker/config/JwtAuthenticationFilter.java
+/app/tracker-backend/src/main/java/com/tracker/util/JwtUtil.java
+/app/tracker-backend/src/main/java/com/tracker/repository/UserRepository.java
+/app/tracker-backend/src/main/java/com/tracker/controller/AuthController.java
+/app/tracker-backend/src/main/java/com/tracker/TrackerProApplication.java
+/app/tracker-backend/src/main/java/com/tracker/config/SecurityConfig.java
+/app/tracker-backend/src/main/java/com/tracker/dto/UserRegistrationDto.java
+/app/tracker-backend/src/main/java/com/tracker/dto/UserLoginDto.java
+/app/tracker-backend/src/main/java/com/tracker/config/JwtAuthenticationEntryPoint.java
+/app/tracker-backend/src/main/java/com/tracker/dto/ApiResponse.java

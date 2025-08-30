@@ -1,0 +1,3 @@
+com/tracker/repository/UserRepository.class
+com/tracker/service/AuthService.class
+com/tracker/entity/User.class
