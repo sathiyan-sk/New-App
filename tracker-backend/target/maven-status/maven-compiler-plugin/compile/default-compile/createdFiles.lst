@@ -1,3 +1,13 @@
+com/tracker/TrackerProApplication.class
+com/tracker/dto/AuthResponse.class
+com/tracker/config/JwtAuthenticationFilter.class
 com/tracker/repository/UserRepository.class
+com/tracker/util/JwtUtil.class
 com/tracker/service/AuthService.class
+com/tracker/dto/UserRegistrationDto.class
+com/tracker/dto/UserLoginDto.class
+com/tracker/config/JwtAuthenticationEntryPoint.class
+com/tracker/config/SecurityConfig.class
+com/tracker/dto/ApiResponse.class
 com/tracker/entity/User.class
+com/tracker/controller/AuthController.class
