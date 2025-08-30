@@ -61,6 +61,14 @@ public class AuthResponse {
         this.fullName = fullName;
     }
     
+    public String getEmpId() {
+        return empId;
+    }
+    
+    public void setEmpId(String empId) {
+        this.empId = empId;
+    }
+    
     public String getCompanyEmail() {
         return companyEmail;
     }
