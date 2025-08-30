@@ -6,6 +6,7 @@ public class AuthResponse {
     private String type = "Bearer";
     private Long userId;
     private String fullName;
+    private String empId;
     private String companyEmail;
     private String message;
     
@@ -13,10 +14,11 @@ public class AuthResponse {
     public AuthResponse() {}
     
     // Constructor for successful authentication
-    public AuthResponse(String token, Long userId, String fullName, String companyEmail) {
+    public AuthResponse(String token, Long userId, String fullName, String empId, String companyEmail) {
         this.token = token;
         this.userId = userId;
         this.fullName = fullName;
+        this.empId = empId;
         this.companyEmail = companyEmail;
         this.message = "Authentication successful";
     }
