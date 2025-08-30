@@ -65,7 +65,7 @@ public class AuthService {
                 savedUser.getFullName()
             );
             
-            return new AuthResponse(token, savedUser.getId(), savedUser.getFullName(), savedUser.getCompanyEmail());
+            return new AuthResponse(token, savedUser.getId(), savedUser.getFullName(), savedUser.getEmpId(), savedUser.getCompanyEmail());
             
         } catch (Exception e) {
             return new AuthResponse("Registration failed: " + e.getMessage());
